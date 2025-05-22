@@ -1,0 +1,6 @@
+@Projeto.Ports.Startup_HostAddress = http://localhost:5038
+
+GET {{Projeto.Ports.Startup_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
